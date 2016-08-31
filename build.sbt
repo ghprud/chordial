@@ -14,7 +14,7 @@ lazy val akkaTracingVersion = "0.5.1"
 // Note: Although Akka 2.4.9 is available, we need to use a 2.3.x release here as akka-tracing and spray-websocket
 // depend on 2.3.x releases, and we don't want to introduce binary incompatibilities
 lazy val akkaVersion = "2.3.15"
-lazy val scalatestVersion = "2.2.6"
+lazy val scalatestVersion = "3.0.0"
 lazy val shapelessVersion = "2.2.0"
 lazy val sprayVersion = "1.3.3"
 lazy val sprayJsonVersion = "1.3.2"
